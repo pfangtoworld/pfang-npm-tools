@@ -1,0 +1,25 @@
+{
+  "name": "@pfang/tools",
+  "version": "0.0.1",
+  "description": "pfang tools package.",
+  "keywords": [ "pfang", "tools"],
+  "homepage": "https://github.com/pfangtoworld/pfang-npm-tools",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pfangtoworld/pfang-npm-tools.git"
+  },
+  "bugs": {
+    "url": "http://github.com/pfangtoworld/pfang-npm-tools/issues"
+  },
+  "bin": {
+    "pfang-tools": "./bin/pfang-tools.js"
+  },
+  "scripts": {
+    "pubgit": "git push origin",
+    "pubnpm": "npm publish --access public",
+    "pub": "git push origin && npm publish --access public",
+    "test": "jest && npm run lint"
+  },
+  "author": "pfangtoworld",
+  "license": "ISC"
+}
